@@ -9,6 +9,10 @@ package jak3;
  *
  * @author jcoq2
  */
-public class Normal {
+public class Normal extends Carro {
+
+    public Normal(double velocidad, double porcentajeDerrape, String nombre, int ataque, int vida) {
+        super(velocidad, porcentajeDerrape, nombre, ataque, vida);
+    }
     
 }

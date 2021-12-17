@@ -9,6 +9,11 @@ package jak3;
  *
  * @author jcoq2
  */
-public class Malvado {
+public class Malvado extends Jugador 
+{
+
+    public Malvado(String nombre, int vida, int ataque) {
+        super(nombre, vida, ataque);
+    }
     
 }
